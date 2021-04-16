@@ -1,0 +1,292 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+
+    width:80%;
+    margin: auto;
+}
+body{
+    font-family: 'open-san';
+}
+@font-face{
+    font-family: 'open-san';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+.hero{
+    background-image:url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    width:20%;
+    padding:15px 30px;
+}
+ img{
+    width:50px;
+
+}
+.menu{
+ width:50%;
+}
+
+ul{
+
+    list-style: none;
+}
+ul li{
+
+    display: inline-block;
+    margin:20px
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    color:#fff;
+}
+
+.active{
+font-weight: bold;
+}
+.overlay{
+
+    background-color:rgba(0, 0, 0, 0.7);
+}
+
+.title{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    text-transform: capitalize;
+    padding:200px 0;
+}
+
+h1{
+    font-size: 40px;
+    margin:10px 0;
+    width:100%;
+    text-align: center;
+}
+
+p{
+
+    font-size: 17px;
+    width:100%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.nn{
+    line-height: 1.9;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding:35px ;
+    margin:auto;
+    width:50%;
+    text-align: center;
+
+
+}
+
+.photo{
+
+    /* display: flex; */
+    margin:auto;
+    width:80%;
+text-align: center;
+}
+.photo-title{
+    display: flex;
+    margin:80px auto;
+    margin-bottom: 10px;
+    width:80%;
+    /* background-color: saddlebrown; */
+    flex-wrap: wrap;
+    justify-content:space-around;
+    /* align-items: center; */
+}
+.child{
+    width:50%;
+    padding:20px 80px;
+    /* background-color: royalblue; */
+}
+.child h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    display:inline-block;
+    margin-left:8px;
+
+}
+.child i{
+    font-size: 24px;
+}
+.child p{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 1.7;
+}
+.photo img{
+    width:50%
+}
+.services{
+
+    background-color: #eee;
+    padding-top:80px;
+    padding-bottom: 30px;
+}
+.icons{
+
+    font-size: 17px;
+    color:rgb(248, 6, 6);
+    margin-left:3px;
+}
+.icon-photo{
+    text-align: center;
+    padding:20px;
+}
+
+.contact-us{
+    background-color: rgb(53, 53, 53);
+    color:#fff;
+    text-align: center;
+    padding:20px 0;
+}
+.contact-us h2{
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 18px;
+}
+.divi{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:10px;
+    align-items: center;
+    padding:8px 0;
+}
+
+
+h4{
+    font-size:15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+.contact{
+    width:30%;
+}
+
+.contact p{
+
+    font-size: 14px;
+}
+
+.social-icon{
+    margin: 0 5px
+}
+
+footer{
+    background-color: #000;
+    padding:8px 0 ;
+    color:#888;
+    font-weight: 700;
+
+}
+footer p{
+    text-transform: capitalize;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 30px;
+width:80%;
+margin:auto;}
+
+
+footer span{
+
+    color:rgb(248, 6, 6);
+
+}
+.project{
+
+    background-color:#f1f1f1;
+    padding:30px 0;
+}
+.project h1{
+
+    font-size:20px;
+    text-transform: uppercase;
+}
+.item-project h4,.item-project1 h4{
+  font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top:25px
+}
+.item-project p,.item-project1 p{
+    font-size: 14px;
+    text-align: left;
+    margin-top:15px;
+    line-height: 1.8;
+}
+.item-project{
+    width:60%;
+    padding-left:250px;
+    padding-right: 30px;
+}
+.pp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+    margin: 50px auto;
+}
+ul{
+    list-style: none;
+   }
+
+ 
+ 
+.item-project1 ul li{
+    display: block;
+    margin:0;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    color:rgb(58, 58, 58);
+    text-transform: capitalize; 
+}
+.icones{
+   font-size: 20px; 
+}
+.item-project1{
+    width:40%;
+    margin-bottom: 25px;
+    position: relative;
+}
+.item-project1::before{
+    content: '';
+border-right: solid 2px rgb(151, 151, 151);
+position: absolute;
+height:200px;
+left:-30px;
+/* top:20px */
+
+}
